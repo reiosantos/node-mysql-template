@@ -1,0 +1,7 @@
+{
+  "watch" : [
+    "./build"
+  ],
+  "delay": 2,
+  "legacyWatch": true
+}

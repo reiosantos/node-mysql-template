@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "types": [
+      "node",
+      "mocha",
+      "chai",
+      "chai-http"
+    ]
+  },
+  "include": [
+    "tests/**/*.ts"
+  ]
+}

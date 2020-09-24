@@ -1,0 +1,18 @@
+{
+  "extension": ["ts"],
+  "reporter": "spec",
+  "timeout": 2000,
+  "watch-files": [
+    "tests/**/*.ts"
+  ],
+  "spec": [
+    "tests/**/*.spec.ts"
+  ],
+  "file": "tests/index.ts",
+  "inspect": true,
+  "require": [
+    "ts-node/register",
+    "tsconfig-paths/register",
+    "dotenv/config"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+	"reporter": [
+		"lcov",
+		"text"
+	],
+	"include": [
+		"src/**/*.ts"
+	],
+	"exclude": [
+		"node_modules",
+		"bin",
+		"coverage",
+		"tests",
+		"**/config/**",
+		"**/server.ts"
+	],
+	"sourceMap": false,
+	"instrument": false,
+	"cache": true,
+	"all": true,
+	"extension": [
+		".ts"
+	]
+}

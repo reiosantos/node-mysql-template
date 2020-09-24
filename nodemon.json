@@ -1,0 +1,11 @@
+{
+  "watch" : [
+    "./build"
+  ],
+  "ignore": [
+    "*.spec.js",
+    "*.spec.ts"
+  ],
+  "delay": 2,
+  "legacyWatch": true
+}

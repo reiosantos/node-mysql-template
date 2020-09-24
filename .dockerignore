@@ -1,0 +1,9 @@
+.idea
+.sass-cache
+.tmp
+bower_components
+dist
+node_modules
+fontawesome*
+*-lock.json
+npm_modules

@@ -1,0 +1,2 @@
+- Configure tests(Jasmine) to work with Istanbul for coverage
+- Configre tests to resolve path aliases
