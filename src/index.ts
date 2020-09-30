@@ -59,6 +59,14 @@ app.use((req, res) => {
   });
 });
 
+passport.serializeUser((user: any, done: (...args: any) => void) => {
+  done(null, user);
+});
+
+passport.deserializeUser((user: any, done: (...args: any) => void) => {
+  done(null, user);
+});
+
 require("./config/passport");
 
 export default app;
